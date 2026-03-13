@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>🚀 Welcome To FERRARI</h1>
-    <p>Successfully deployed using Docker & Jenkins CI/CD Pipeline!</p>
+    <p>Successfully deployed using Docker & Jenkins CI/CD Pipeline! Thank You</p>
     """
 
 @app.route("/health")
